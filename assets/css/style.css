@@ -111,3 +111,20 @@ p {
     border-top: solid #4aaaa5;
     border-width: 4px;
 }
+
+.image-with-label {
+    position: relative;
+    float: left;
+    padding: 25px;
+}
+
+.portfolio-label {
+    position: absolute;
+    left: 25px;
+    bottom:40px;
+    color: #ffffff;
+    background: #4aaaa5;
+    text-align: center;
+    padding: 10px 0;
+    width: 245px;
+}
