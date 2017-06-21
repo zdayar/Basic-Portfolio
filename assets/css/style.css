@@ -1,0 +1,113 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 18px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    line-height: 24px;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-weight: bold;
+    color: #4aaaa5;
+}
+
+h1 {
+    margin-bottom: 10px;
+    font-size: 32px;
+    line-height: 40px;
+}
+
+h2 {
+    margin-bottom: 5px;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.header {
+    background: #ffffff;
+    display: block;
+    width: 960px;
+    margin-left: 10%;
+}
+
+.logo {
+    float: left;
+    padding: 20px;
+    margin: 0;
+    text-align: center;
+    background: #4aaaa5;
+}
+
+.logo h1 {
+    color: #ffffff;
+}
+
+.links {
+    float: right;
+    word-spacing: 10px;
+    line-height: 20px;
+    padding: 50px 20px 20px 20px;
+}
+
+a {
+    /* don't underline links */
+    text-decoration: none;
+    color: #777777;
+}
+
+.content {
+    clear: both;
+    overflow: auto;
+    background-image: url("../images/sandpaper.png");
+    padding: 2% 0 2% 10%;
+    border-top: solid #888888;
+    border-width: 2px;
+}
+
+.main_content {
+    float: left;
+    width: 650px;
+    margin-right: 40px;
+    padding: 20px;
+    background: #ffffff;
+    border: solid #888888;
+    border-width: 1px;
+}
+
+.picture {
+    float: left;
+    padding-right: 20px;
+}
+
+p {
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.aside {
+    float: left;
+    width: 270px;
+    padding: 30px;
+    background: #ffffff;
+    border: solid #888888;
+    border-width: 1px;
+}
+
+.footer {
+    clear: both;
+    overflow: auto;
+    padding: 30px 0;
+    font-size: 10px;
+    line-height: 16px;
+    text-align: center;
+    background: #666666;
+    color: #cccccc;
+    border-top: solid #4aaaa5;
+    border-width: 4px;
+}
